@@ -1,0 +1,93 @@
+{
+  "roc_auc": 0.9585473539443915,
+  "pr_auc": 0.845200011840748,
+  "optimal_threshold": 0.5,
+  "optimal_metrics": {
+    "precision_fraud": 0.8421052631578947,
+    "recall_fraud": 0.8163265306122449,
+    "f1_fraud": 0.8290155440414507,
+    "confusion_matrix": [
+      [
+        56849,
+        15
+      ],
+      [
+        18,
+        80
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9996834719608912,
+        "recall": 0.9997362127180641,
+        "f1-score": 0.999709841643879,
+        "support": 56864.0
+      },
+      "1": {
+        "precision": 0.8421052631578947,
+        "recall": 0.8163265306122449,
+        "f1-score": 0.8290155440414507,
+        "support": 98.0
+      },
+      "accuracy": 0.999420666409185,
+      "macro avg": {
+        "precision": 0.920894367559393,
+        "recall": 0.9080313716651545,
+        "f1-score": 0.9143626928426649,
+        "support": 56962.0
+      },
+      "weighted avg": {
+        "precision": 0.9994123672864997,
+        "recall": 0.999420666409185,
+        "f1-score": 0.9994161714573505,
+        "support": 56962.0
+      }
+    }
+  },
+  "comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.9754222112987606,
+      "precision": 0.06072874493927125,
+      "recall": 0.9183673469387755,
+      "f1_score": 0.11392405063291139,
+      "roc_auc": 0.9718107399825435,
+      "pr_auc": 0.7089802848293277,
+      "confusion_matrix": [
+        [
+          55472,
+          1392
+        ],
+        [
+          8,
+          90
+        ]
+      ],
+      "true_positives": 90,
+      "false_positives": 1392,
+      "false_negatives": 8,
+      "true_negatives": 55472
+    },
+    "Random Forest": {
+      "accuracy": 0.999420666409185,
+      "precision": 0.8421052631578947,
+      "recall": 0.8163265306122449,
+      "f1_score": 0.8290155440414507,
+      "roc_auc": 0.9585473539443915,
+      "pr_auc": 0.845200011840748,
+      "confusion_matrix": [
+        [
+          56849,
+          15
+        ],
+        [
+          18,
+          80
+        ]
+      ],
+      "true_positives": 80,
+      "false_positives": 15,
+      "false_negatives": 18,
+      "true_negatives": 56849
+    }
+  }
+}

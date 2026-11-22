@@ -1,0 +1,53 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.9754222112987606,
+      "precision": 0.06072874493927125,
+      "recall": 0.9183673469387755,
+      "f1_score": 0.11392405063291139,
+      "roc_auc": 0.9718107399825435,
+      "pr_auc": 0.7089802848293277,
+      "confusion_matrix": [
+        [
+          55472,
+          1392
+        ],
+        [
+          8,
+          90
+        ]
+      ],
+      "true_positives": 90,
+      "false_positives": 1392,
+      "false_negatives": 8,
+      "true_negatives": 55472
+    },
+    "Random Forest": {
+      "accuracy": 0.999420666409185,
+      "precision": 0.8421052631578947,
+      "recall": 0.8163265306122449,
+      "f1_score": 0.8290155440414507,
+      "roc_auc": 0.9585473539443915,
+      "pr_auc": 0.845200011840748,
+      "confusion_matrix": [
+        [
+          56849,
+          15
+        ],
+        [
+          18,
+          80
+        ]
+      ],
+      "true_positives": 80,
+      "false_positives": 15,
+      "false_negatives": 18,
+      "true_negatives": 56849
+    }
+  },
+  "test_set_summary": {
+    "total_test_transactions": 56962,
+    "total_test_fraud": 98,
+    "total_test_legit": 56864
+  }
+}
